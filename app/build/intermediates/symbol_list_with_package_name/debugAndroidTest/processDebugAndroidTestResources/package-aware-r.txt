@@ -1,0 +1,3 @@
+com.shayan.playbackmaster.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

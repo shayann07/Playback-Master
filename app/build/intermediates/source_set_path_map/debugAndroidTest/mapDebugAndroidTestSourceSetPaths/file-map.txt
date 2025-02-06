@@ -1,0 +1,6 @@
+com.shayan.playbackmaster.test.app-tracing-1.2.0-0 C:\Users\shaya\.gradle\caches\8.10.2\transforms\35f7152169385dda2c814e25f9cd55f6\transformed\tracing-1.2.0\res
+com.shayan.playbackmaster.test.app-core-1.6.1-1 C:\Users\shaya\.gradle\caches\8.10.2\transforms\40649d2d0944a2115b53baffab600800\transformed\core-1.6.1\res
+com.shayan.playbackmaster.test.app-androidTest-2 D:\AndroidStudioProjects\VideoPlayback\app\build\generated\res\resValues\androidTest\debug
+com.shayan.playbackmaster.test.app-mergeDebugAndroidTestResources-3 D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.shayan.playbackmaster.test.app-mergeDebugAndroidTestResources-4 D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.shayan.playbackmaster.test.app-debugAndroidTest-5 D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
