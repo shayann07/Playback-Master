@@ -1531,6 +1531,7 @@ color foreground_material_light
 color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color lighter_grey
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2210,6 +2211,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color transparent_black
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -3319,6 +3321,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable play_button
 drawable playbtn
 drawable test_level_drawable
 drawable text_bg
@@ -3458,7 +3461,6 @@ id checked
 id chronometer
 id circle_center
 id circular_shape_lower
-id circular_shape_mid
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -3766,8 +3768,6 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id playBtn
-id playBtnBase
 id pooling_container_listener_holder_tag
 id position
 id postLayout
@@ -4212,6 +4212,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
 string dest_title
+string end_time
 string error_a11y_label
 string error_icon_content_description
 string exo_controls_cc_disabled_description
@@ -4274,6 +4275,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string lock_screen_disable
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4385,9 +4387,13 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string select_time_frame
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
+string start_time
 string status_bar_notification_info_overflow
+string upload_video
+string video_uri
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

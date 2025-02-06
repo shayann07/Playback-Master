@@ -169,7 +169,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sh
 	android:icon
 		ADDED from D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:20:9-36
 	android:theme
 		ADDED from D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:27:9-52
 	android:dataExtractionRules

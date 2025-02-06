@@ -102,7 +102,7 @@ class VideoFragment : Fragment() {
         val calendar = Calendar.getInstance()
         val hour = calendar.get(Calendar.HOUR_OF_DAY)
         val minute = calendar.get(Calendar.MINUTE)
-        return "$hour:${minute.toString().padStart(2, '0')}"
+        return String.format(Locale.getDefault(), "%02d:%02d", hour, minute)
     }
 
     private fun scheduleStopAtEndTime(endTime: String?) {
@@ -173,31 +173,34 @@ class VideoFragment : Fragment() {
         )
 
         // Calculate remaining time in milliseconds
-        val endMillis = convertTimeToMillis(endTime)
-        val currentMillis = System.currentTimeMillis()
-        val remainingTime = endMillis - currentMillis
+        try {
+            val endMillis = convertTimeToMillis(endTime)
+            val currentMillis = System.currentTimeMillis()
+            val remainingTime = endMillis - currentMillis
 
-        if (remainingTime > 0) {
-            wakeLock?.acquire(remainingTime)
-            Log.d(
-                "VideoFragment",
-                "Wake lock acquired until end time: $endTime (Duration: ${remainingTime / 1000} seconds)"
-            )
-            screenTurnedOnByApp = true
-        } else {
-            Log.d("VideoFragment", "End time is in the past. Wake lock not acquired.")
+            if (remainingTime > 0) {
+                wakeLock?.acquire(remainingTime)
+                Log.d("VideoFragment", "Wake lock acquired for ${remainingTime / 1000} seconds")
+                screenTurnedOnByApp = true
+            }
+        } catch (e: Exception) {
+            Log.e("VideoFragment", "Failed to acquire wake lock: ${e.message}")
         }
     }
 
     private fun releaseWakeLock() {
-        if (screenTurnedOnByApp) {
-            wakeLock?.let {
-                if (it.isHeld) {
-                    it.release()
-                    Log.d("VideoFragment", "Wake lock released.")
+        try {
+            if (screenTurnedOnByApp) {
+                wakeLock?.let {
+                    if (it.isHeld) {
+                        it.release()
+                        Log.d("VideoFragment", "Wake lock released.")
+                    }
                 }
+                screenTurnedOnByApp = false
             }
-            screenTurnedOnByApp = false
+        } catch (e: Exception) {
+            Log.e("VideoFragment", "Failed to release wake lock: ${e.message}")
         }
     }
 

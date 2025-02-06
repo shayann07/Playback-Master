@@ -5,13 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.materialswitch.MaterialSwitch;
@@ -25,10 +24,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
-  public final CardView circularShapeLower;
-
-  @NonNull
-  public final CardView circularShapeMid;
+  public final ImageButton circularShapeLower;
 
   @NonNull
   public final MaterialSwitch disableScreenLock;
@@ -43,12 +39,6 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final LinearLayout linearLayout2;
 
   @NonNull
-  public final ImageView playBtn;
-
-  @NonNull
-  public final CardView playBtnBase;
-
-  @NonNull
   public final TextView startTimeBtn;
 
   @NonNull
@@ -60,21 +50,17 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView videoUriTxt;
 
-  private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull CardView circularShapeLower,
-      @NonNull CardView circularShapeMid, @NonNull MaterialSwitch disableScreenLock,
-      @NonNull TextView endTimeBtn, @NonNull LinearLayout linearLayout1,
-      @NonNull LinearLayout linearLayout2, @NonNull ImageView playBtn,
-      @NonNull CardView playBtnBase, @NonNull TextView startTimeBtn, @NonNull TextView timeTextID,
-      @NonNull Button uploadBtn, @NonNull TextView videoUriTxt) {
+  private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull ImageButton circularShapeLower,
+      @NonNull MaterialSwitch disableScreenLock, @NonNull TextView endTimeBtn,
+      @NonNull LinearLayout linearLayout1, @NonNull LinearLayout linearLayout2,
+      @NonNull TextView startTimeBtn, @NonNull TextView timeTextID, @NonNull Button uploadBtn,
+      @NonNull TextView videoUriTxt) {
     this.rootView = rootView;
     this.circularShapeLower = circularShapeLower;
-    this.circularShapeMid = circularShapeMid;
     this.disableScreenLock = disableScreenLock;
     this.endTimeBtn = endTimeBtn;
     this.linearLayout1 = linearLayout1;
     this.linearLayout2 = linearLayout2;
-    this.playBtn = playBtn;
-    this.playBtnBase = playBtnBase;
     this.startTimeBtn = startTimeBtn;
     this.timeTextID = timeTextID;
     this.uploadBtn = uploadBtn;
@@ -109,14 +95,8 @@ public final class FragmentHomeBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.circular_shape_lower;
-      CardView circularShapeLower = ViewBindings.findChildViewById(rootView, id);
+      ImageButton circularShapeLower = ViewBindings.findChildViewById(rootView, id);
       if (circularShapeLower == null) {
-        break missingId;
-      }
-
-      id = R.id.circular_shape_mid;
-      CardView circularShapeMid = ViewBindings.findChildViewById(rootView, id);
-      if (circularShapeMid == null) {
         break missingId;
       }
 
@@ -144,18 +124,6 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.playBtn;
-      ImageView playBtn = ViewBindings.findChildViewById(rootView, id);
-      if (playBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.playBtnBase;
-      CardView playBtnBase = ViewBindings.findChildViewById(rootView, id);
-      if (playBtnBase == null) {
-        break missingId;
-      }
-
       id = R.id.startTimeBtn;
       TextView startTimeBtn = ViewBindings.findChildViewById(rootView, id);
       if (startTimeBtn == null) {
@@ -180,9 +148,9 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ScrollView) rootView, circularShapeLower, circularShapeMid,
-          disableScreenLock, endTimeBtn, linearLayout1, linearLayout2, playBtn, playBtnBase,
-          startTimeBtn, timeTextID, uploadBtn, videoUriTxt);
+      return new FragmentHomeBinding((ScrollView) rootView, circularShapeLower, disableScreenLock,
+          endTimeBtn, linearLayout1, linearLayout2, startTimeBtn, timeTextID, uploadBtn,
+          videoUriTxt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

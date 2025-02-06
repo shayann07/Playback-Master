@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="grey">#161515</color>
+    <color name="lighter_grey">#A9AAAAAA</color>
+    <color name="transparent_black">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">PlaybackMaster</string>
+    <string name="end_time">End Time</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lock_screen_disable">Lock Screen (Disable)</string>
+    <string name="select_time_frame">Select Time Frame</string>
+    <string name="start_time">Start Time</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="video_uri">Video Uri</string>
+    <style name="Base.Theme.PlaybackMaster" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.PlaybackMaster" parent="Base.Theme.PlaybackMaster"/>
+</resources>

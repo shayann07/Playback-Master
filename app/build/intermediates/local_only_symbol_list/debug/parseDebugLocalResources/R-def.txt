@@ -2,12 +2,15 @@ R_DEF: Internal format may change without notice
 local
 color black
 color grey
+color lighter_grey
+color transparent_black
 color white
 drawable baseline_play_arrow_24
 drawable baseline_upload_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_notification
+drawable play_button
 drawable playbtn
 drawable text_bg
 font roboto_black
@@ -22,7 +25,6 @@ id action_videoFragment_to_homeFragment
 id btn_close
 id btn_go_to_settings
 id circular_shape_lower
-id circular_shape_mid
 id disableScreenLock
 id endTimeBtn
 id fab_action_1
@@ -32,8 +34,6 @@ id linear_layout1
 id linear_layout2
 id nav_graph
 id nav_host_fragment
-id playBtn
-id playBtnBase
 id startTimeBtn
 id timeTextID
 id tv_instruction_details
@@ -51,7 +51,13 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 string app_name
+string end_time
 string hello_blank_fragment
+string lock_screen_disable
+string select_time_frame
+string start_time
+string upload_video
+string video_uri
 style Base.Theme.PlaybackMaster
 style Theme.PlaybackMaster
 xml backup_rules

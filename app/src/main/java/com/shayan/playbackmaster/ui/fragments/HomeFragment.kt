@@ -30,6 +30,7 @@ import com.shayan.playbackmaster.ui.viewmodel.AppViewModel
 import com.shayan.playbackmaster.utils.AlarmUtils
 import com.shayan.playbackmaster.utils.Constants
 import com.shayan.playbackmaster.utils.TimePickerHelper
+import java.util.Locale
 
 class HomeFragment : Fragment() {
 
@@ -153,7 +154,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupPlaybackNavigation() {
-        binding.playBtn.setOnClickListener {
+        binding.circularShapeLower.setOnClickListener {
             requireActivity().findNavController(R.id.nav_host_fragment)
                 .navigate(R.id.action_homeFragment_to_videoFragment)
         }
@@ -235,7 +236,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun formatTime(hour: Int, minute: Int): String {
-        return "$hour:${minute.toString().padStart(2, '0')}"
+        return String.format(Locale.getDefault(), "%02d:%02d", hour, minute)
     }
 
     private fun showToast(message: String) {

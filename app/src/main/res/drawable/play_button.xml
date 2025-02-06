@@ -1,0 +1,62 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base Vector -->
+    <item>
+        <vector
+            android:width="160dp"
+            android:height="160dp"
+            android:viewportWidth="408.76"
+            android:viewportHeight="408.76">
+
+            <!-- Outer circle -->
+            <path
+                android:fillColor="@android:color/transparent"
+                android:pathData="M377.75,204.38c0,18.08 -2.77,35.52 -7.91,51.9c-20.39,65.09 -78.11,113.66 -148.08,120.61c-5.72,0.58 -11.51,0.87 -17.38,0.87c-51.39,0 -97.56,-22.36 -129.3,-57.88c-0.26,-0.29 -0.52,-0.59 -0.79,-0.88c-26.95,-30.56 -43.29,-70.68 -43.29,-114.62c0,-95.75 77.62,-173.38 173.38,-173.38c43.95,0 84.07,16.35 114.63,43.29c0.29,0.27 0.59,0.53 0.88,0.79C355.4,106.84 377.75,152.99 377.75,204.38"
+                android:strokeWidth="4"
+                android:strokeColor="@color/white"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+
+            <!-- Play icon -->
+            <path
+                android:fillColor="@android:color/transparent"
+                android:pathData="M147.6,106.04l170.34,98.35l-170.34,98.34l0,-196.69"
+                android:strokeWidth="8"
+                android:strokeColor="@color/white"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round" />
+        </vector>
+    </item>
+
+    <!-- Enhanced Metallic Effect with Brighter Sweep Gradient -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="200dp"
+                android:height="200dp" />
+            <gradient
+                android:angle="315"
+                android:centerColor="#99000000"
+                android:endColor="#1E1F22"
+                android:startColor="#1E1F22"
+                android:type="sweep" />
+        </shape>
+    </item>
+
+    <!-- Radial Gradient to fade edges to black -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="160dp"
+                android:height="160dp" />
+            <gradient
+                android:centerColor="#00000000"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:endColor="@color/black"
+                android:gradientRadius="100%"
+                android:startColor="@color/transparent_black"
+                android:tileMode="clamp"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>
