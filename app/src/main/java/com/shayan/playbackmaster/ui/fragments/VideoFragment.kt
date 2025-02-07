@@ -45,7 +45,8 @@ class VideoFragment : Fragment() {
         // Set the orientation to landscape
         requireActivity().requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_REVERSE_LANDSCAPE
 
-        requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner,
+        requireActivity().onBackPressedDispatcher.addCallback(
+            viewLifecycleOwner,
             object : OnBackPressedCallback(true) {
                 override fun handleOnBackPressed() {}
             })
@@ -120,11 +121,23 @@ class VideoFragment : Fragment() {
         }
     }
 
+    private fun turnOffScreenUsingRoot() {
+        try {
+            // KEYCODE_SLEEP (223) simulates pressing the sleep button
+            Runtime.getRuntime().exec(arrayOf("su", "-c", "input keyevent 223"))
+        } catch (e: Exception) {
+            Log.e("ScreenOff", "Failed to turn off screen: ${e.message}")
+        }
+    }
+
     private fun stopPlayback() {
         exoPlayer?.stop()
         exoPlayer?.release()
         exoPlayer = null
         releaseWakeLock()
+        // Force the screen off using the root command
+        turnOffScreenUsingRoot()
+        
         if (isAdded) {
             context?.let {
                 Toast.makeText(it, "Playback stopped at end time", Toast.LENGTH_SHORT).show()

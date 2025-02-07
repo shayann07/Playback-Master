@@ -1,166 +1,162 @@
 [
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\layout_bottom_sheet_instructions.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\layout\\bottom_sheet_instructions.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/xml_backup_rules.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\font_roboto_regular.ttf.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\font\\roboto_regular.ttf"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/font_roboto_light.ttf.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/font/roboto_light.ttf"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable_playbtn.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/drawable/playbtn.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\layout\\activity_main.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable_play_button.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\drawable\\play_button.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable_baseline_upload_24.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/drawable/baseline_upload_24.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-xhdpi_ic_notification.png.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-xhdpi/ic_notification.png"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-xxhdpi_ic_notification.png.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-xxhdpi\\ic_notification.png"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\font_roboto_medium.ttf.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\font\\roboto_medium.ttf"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/layout_activity_main.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-ldpi_ic_notification.png.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-ldpi\\ic_notification.png"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/layout_bottom_sheet_instructions.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/layout/bottom_sheet_instructions.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\navigation\\nav_graph.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-anydpi-v24_ic_notification.xml.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-anydpi-v24/ic_notification.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable_baseline_play_arrow_24.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\drawable\\baseline_play_arrow_24.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-ldpi_ic_notification.png.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-ldpi/ic_notification.png"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/font_roboto_black.ttf.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/font/roboto_black.ttf"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/xml_data_extraction_rules.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-hdpi_ic_notification.png.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-hdpi\\ic_notification.png"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\font_roboto_italic.ttf.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\font\\roboto_italic.ttf"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-xxxhdpi_ic_notification.png.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-xxxhdpi\\ic_notification.png"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-mdpi_ic_notification.png.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-mdpi\\ic_notification.png"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/font_roboto_thin.ttf.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/font/roboto_thin.ttf"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\font_roboto_black.ttf.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\font\\roboto_black.ttf"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\layout\\fragment_home.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-mdpi_ic_notification.png.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-mdpi/ic_notification.png"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\font_roboto_bold.ttf.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\font\\roboto_bold.ttf"
-    },
-    {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-anydpi-v24_ic_notification.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-anydpi-v24\\ic_notification.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/font_roboto_regular.ttf.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/font/roboto_regular.ttf"
     },
     {
         "merged": "com.shayan.playbackmaster.app-debug-52:/layout_fragment_home.xml.flat",
         "source": "com.shayan.playbackmaster.app-main-54:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable-xhdpi_ic_notification.png.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-pngs-48:\\drawable-xhdpi\\ic_notification.png"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-xxhdpi_ic_notification.png.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-xxhdpi/ic_notification.png"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/font_roboto_medium.ttf.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/font/roboto_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-xxxhdpi_ic_notification.png.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-xxxhdpi/ic_notification.png"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\font_roboto_thin.ttf.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\font\\roboto_thin.ttf"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\font_roboto_light.ttf.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\font\\roboto_light.ttf"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\layout_fragment_video.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\layout\\fragment_video.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-hdpi_ic_notification.png.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-hdpi/ic_notification.png"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\xml\\backup_rules.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/font_roboto_bold.ttf.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/font/roboto_bold.ttf"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\xml\\data_extraction_rules.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable_text_bg.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/drawable/text_bg.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/layout_fragment_video.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/layout/fragment_video.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable_playbtn.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\drawable\\playbtn.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable_baseline_play_arrow_24.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/drawable/baseline_play_arrow_24.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/font_roboto_italic.ttf.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/font/roboto_italic.ttf"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/navigation_nav_graph.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable_text_bg.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\drawable\\text_bg.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.shayan.playbackmaster.app-pngs-48:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-debug-52:\\drawable_baseline_upload_24.xml.flat",
-        "source": "C:\\Users\\shaya\\.gradle\\daemon\\8.10.2\\com.shayan.playbackmaster.app-main-54:\\drawable\\baseline_upload_24.xml"
+        "merged": "com.shayan.playbackmaster.app-debug-52:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.shayan.playbackmaster.app-debug-52:/drawable_play_button.xml.flat",
+        "source": "com.shayan.playbackmaster.app-main-54:/drawable/play_button.xml"
     }
 ]

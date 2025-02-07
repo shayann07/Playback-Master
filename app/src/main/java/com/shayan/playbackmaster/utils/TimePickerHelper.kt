@@ -16,7 +16,7 @@ object TimePickerHelper {
             { _, selectedHour, selectedMinute -> onTimeSelected(selectedHour, selectedMinute) },
             hour,
             minute,
-            false // Set to true for 24-hour format
+            true // Set to true for 24-hour format
         ).show()
     }
 }

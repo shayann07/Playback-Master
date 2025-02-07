@@ -35,8 +35,9 @@ object AlarmUtils {
             calendar.add(Calendar.DAY_OF_YEAR, 1)
         }
 
-        alarmManager.setExactAndAllowWhileIdle(
-            AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pendingIntent
+        // Use setRepeating so that the alarm fires daily
+        alarmManager.setRepeating(
+            AlarmManager.RTC_WAKEUP, calendar.timeInMillis, AlarmManager.INTERVAL_DAY, pendingIntent
         )
     }
 }
