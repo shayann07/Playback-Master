@@ -3,24 +3,24 @@
 3    package="com.shayan.playbackmaster.test" >
 4
 5    <uses-sdk
-5-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:5:5-74
+5-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:5:15-41
+6-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:5:15-41
 7        android:targetSdkVersion="35" />
-7-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:5:42-71
+7-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:11:5-15:75
+9-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:11:5-15:75
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:11:22-76
+10-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:14:22-52
+11-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:13:22-53
+12-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:13:22-53
 13        android:label="Tests for com.shayan.playbackmaster"
-13-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:15:22-73
+13-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:15:22-73
 14        android:targetPackage="com.shayan.playbackmaster" />
-14-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:12:22-71
+14-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:12:22-71
 15
 16    <queries>
 16-->[androidx.test:runner:1.6.1] C:\Users\shaya\.gradle\caches\8.10.2\transforms\f0920ec6b0762c3a19a5f15d5e986868\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
@@ -40,12 +40,12 @@
 22-->[androidx.test:core:1.6.1] C:\Users\shaya\.gradle\caches\8.10.2\transforms\40649d2d0944a2115b53baffab600800\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
 23
 24    <application
-24-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:7:5-9:19
+24-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="true" >
 27        <uses-library android:name="android.test.runner" />
-27-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:8:9-60
-27-->D:\AndroidStudioProjects\VideoPlayback\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9889446998506266916.xml:8:23-57
+27-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:8:9-60
+27-->D:\AndroidStudioProjects\Playback-Master\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16704112613384415258.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.6.1] C:\Users\shaya\.gradle\caches\8.10.2\transforms\40649d2d0944a2115b53baffab600800\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20

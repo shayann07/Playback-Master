@@ -6,6 +6,8 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 
 import android.provider.Settings
 import android.util.Log
@@ -20,8 +22,10 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import com.shayan.playbackmaster.R
 import android.os.PowerManager
+import com.shayan.playbackmaster.data.preferences.PreferencesHelper
 import com.shayan.playbackmaster.ui.fragments.ExitPlaybackListener
 import com.shayan.playbackmaster.utils.BatteryOptimizationHelper
+import java.util.Calendar
 
 class MainActivity<PowerManager> : AppCompatActivity(), ExitPlaybackListener {
 
@@ -41,42 +45,40 @@ class MainActivity<PowerManager> : AppCompatActivity(), ExitPlaybackListener {
 
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
 
-       /* if (BatteryOptimizationHelper.isBatteryOptimized(context = this)){
-            BatteryOptimizationHelper.requestDisableBatteryOptimization(context = this)
-        }*/
+        /* if (BatteryOptimizationHelper.isBatteryOptimized(context = this)){
+             BatteryOptimizationHelper.requestDisableBatteryOptimization(context = this)
+         }*/
         // Check if battery optimization is ignored
 
-           // If the device is Android M (API 23) or higher, navigate to battery optimization settings
-           if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !BatteryOptimizationHelper.isBatteryOptimized(this)) {
-               val intent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
-               try {
-                   val builder = AlertDialog.Builder(this)
-                   builder.setTitle("Battery Optimization")
-                       .setMessage("To ensure the best performance, please disable battery optimization for this app.Go to setting " +
-                               "and find PlaybackMaster and turn off battery optimization")
-                       .setPositiveButton("Go to Settings") { dialog, _ ->
-                           // Open battery optimization settings
-                           startActivity(intent)
-                           dialog.dismiss() // Close the dialog
-                       }
-                       .setNegativeButton("Cancel") { dialog, _ ->
-                           dialog.dismiss() // Close the dialog
-                       }
-                       .setCancelable(false) // Prevent closing the dialog by tapping outside
+        // If the device is Android M (API 23) or higher, navigate to battery optimization settings
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !BatteryOptimizationHelper.isBatteryOptimized(
+                this
+            )
+        ) {
+            val intent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
+            try {
+                val builder = AlertDialog.Builder(this)
+                builder.setTitle("Battery Optimization").setMessage(
+                    "To ensure the best performance, please disable battery optimization for this app.Go to setting " + "and find PlaybackMaster and turn off battery optimization"
+                ).setPositiveButton("Go to Settings") { dialog, _ ->
+                    // Open battery optimization settings
+                    startActivity(intent)
+                    dialog.dismiss() // Close the dialog
+                }.setNegativeButton("Cancel") { dialog, _ ->
+                    dialog.dismiss() // Close the dialog
+                }.setCancelable(false) // Prevent closing the dialog by tapping outside
 
-                   // Create and show the dialog
-                   val dialog = builder.create()
-                   dialog.show()
+                // Create and show the dialog
+                val dialog = builder.create()
+                dialog.show()
 
-                   Toast.makeText(this,"Turn off Battery Optimization",Toast.LENGTH_LONG).show()
-                  // Successfully opened the settings
-               } catch (e: Exception) {
-                   e.printStackTrace()
-                     // Failed to open settings
-               }
-           }
-
-
+                Toast.makeText(this, "Turn off Battery Optimization", Toast.LENGTH_LONG).show()
+                // Successfully opened the settings
+            } catch (e: Exception) {
+                e.printStackTrace()
+                // Failed to open settings
+            }
+        }
 
         // Check for permissions and handle playback intent
         if (hasStoragePermission()) {
@@ -85,8 +87,6 @@ class MainActivity<PowerManager> : AppCompatActivity(), ExitPlaybackListener {
             requestStoragePermission()
         }
     }
-
-
 
     private fun hasStoragePermission(): Boolean {
         return if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
@@ -100,9 +100,6 @@ class MainActivity<PowerManager> : AppCompatActivity(), ExitPlaybackListener {
         }
     }
 
-
-
-
     private fun requestStoragePermission() {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
             ActivityCompat.requestPermissions(
@@ -115,26 +112,103 @@ class MainActivity<PowerManager> : AppCompatActivity(), ExitPlaybackListener {
         }
     }
 
+    private val handler = Handler(Looper.getMainLooper())
+    private var isNavigating = false
+
     private fun handlePlaybackIntent() {
-        val videoUri = intent.getStringExtra("VIDEO_URI")
-        val startTime = intent.getStringExtra("START_TIME")
-        val endTime = intent.getStringExtra("END_TIME")
+        var videoUri = intent.getStringExtra("VIDEO_URI")
+        var startTime = intent.getStringExtra("START_TIME")
+        var endTime = intent.getStringExtra("END_TIME")
 
-        Log.d(
-            "MainActivity",
-            "Intent Data - VIDEO_URI: $videoUri, START_TIME: $startTime, END_TIME: $endTime"
-        )
+        val preferencesHelper = PreferencesHelper(this)
 
-        if (!videoUri.isNullOrEmpty() && !startTime.isNullOrEmpty() && !endTime.isNullOrEmpty()) {
-            // Navigate directly to VideoFragment with playback details
-            val bundle = Bundle().apply {
-                putString("VIDEO_URI", videoUri)
-                putString("START_TIME", startTime)
-                putString("END_TIME", endTime)
-            }
-            navController.setGraph(R.navigation.nav_graph, bundle)
-            navController.navigate(R.id.videoFragment, bundle)
+        if (videoUri.isNullOrEmpty()) {
+            videoUri = preferencesHelper.getVideoUri()
+            if (!videoUri.isNullOrEmpty()) showToast("Using saved Video URI: $videoUri")
+            else showToast("No video selected")
         }
+
+        if (startTime.isNullOrEmpty()) {
+            startTime = preferencesHelper.getStartTime()
+            if (!startTime.isNullOrEmpty()) showToast("Using saved Start Time: $startTime")
+            else showToast("No start time selected")
+        }
+
+        if (endTime.isNullOrEmpty()) {
+            endTime = preferencesHelper.getEndTime()
+            if (!endTime.isNullOrEmpty()) showToast("Using saved End Time: $endTime")
+            else showToast("No end time selected")
+        }
+
+        if (videoUri.isNullOrEmpty() || startTime.isNullOrEmpty() || endTime.isNullOrEmpty()) {
+            showToast("Missing required data to start playback")
+            return
+        }
+
+        Log.d("MainActivity", "Intent Data - VIDEO_URI: $videoUri, START_TIME: $startTime, END_TIME: $endTime")
+
+        val currentTime = Calendar.getInstance()
+
+        val startCalendar = Calendar.getInstance().apply {
+            val timeParts = startTime.split(":")
+            set(Calendar.HOUR_OF_DAY, timeParts[0].toInt())
+            set(Calendar.MINUTE, timeParts[1].toInt())
+            set(Calendar.SECOND, 0)
+            set(Calendar.MILLISECOND, 0)
+        }
+
+        val endCalendar = Calendar.getInstance().apply {
+            val timeParts = endTime.split(":")
+            set(Calendar.HOUR_OF_DAY, timeParts[0].toInt())
+            set(Calendar.MINUTE, timeParts[1].toInt())
+            set(Calendar.SECOND, 0)
+            set(Calendar.MILLISECOND, 0)
+        }
+
+        // Check if current time is AFTER the end time
+        if (currentTime.after(endCalendar)) {
+            showToast("Playback period has ended. Cannot play video.")
+            return // Do not proceed with navigation
+        }
+
+        // If current time is before start time, delay playback
+        if (currentTime.before(startCalendar)) {
+            val delayMillis = startCalendar.timeInMillis - currentTime.timeInMillis
+            showToast("Delaying playback until $startTime")
+
+            // Capture values before using them in the Runnable
+            val videoUriFinal = videoUri
+            val startTimeFinal = startTime
+            val endTimeFinal = endTime
+
+            handler.postDelayed({
+                navigateToVideoFragment(videoUriFinal, startTimeFinal, endTimeFinal)
+            }, delayMillis)
+        } else {
+            // Start playback immediately if within the allowed window
+            navigateToVideoFragment(videoUri, startTime, endTime)
+        }
+    }
+
+    private fun navigateToVideoFragment(videoUri: String, startTime: String, endTime: String) {
+        if (isNavigating) return
+        isNavigating = true
+
+        val bundle = Bundle().apply {
+            putString("VIDEO_URI", videoUri)
+            putString("START_TIME", startTime)
+            putString("END_TIME", endTime)
+        }
+
+        showToast("Navigating to VideoFragment")
+        navController.setGraph(R.navigation.nav_graph, bundle)
+        navController.navigate(R.id.videoFragment, bundle)
+    }
+
+
+    // Helper function to show Toast messages
+    private fun showToast(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
     override fun onRequestPermissionsResult(
@@ -159,5 +233,10 @@ class MainActivity<PowerManager> : AppCompatActivity(), ExitPlaybackListener {
     override fun onExitPlayback() {
         val navController = navController
         navController.navigate(R.id.homeFragment) // Navigate to HomeFragment
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        handler.removeCallbacksAndMessages(null)
     }
 }

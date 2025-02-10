@@ -4,7 +4,7 @@
             "outputFile": "com.shayan.playbackmaster.app-mergeDebugResources-50:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\AndroidStudioProjects\\VideoPlayback\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\AndroidStudioProjects\\Playback-Master\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

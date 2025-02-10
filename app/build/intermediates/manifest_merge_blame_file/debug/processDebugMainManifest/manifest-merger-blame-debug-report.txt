@@ -10,38 +10,38 @@
 10
 11    <!-- Permissions -->
 12    <uses-permission
-12-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:6:5-8:38
+12-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:6:5-8:38
 13        android:name="android.permission.READ_EXTERNAL_STORAGE"
-13-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:7:9-64
+13-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:7:9-64
 14        android:maxSdkVersion="32" />
-14-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:8:9-35
+14-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:8:9-35
 15    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-15-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:9:5-75
-15-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:9:22-72
+15-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:9:5-75
+15-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:9:22-72
 16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-16-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:10:5-79
-16-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:10:22-76
+16-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:10:22-76
 17    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
-17-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:11:5-74
-17-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:11:22-71
+17-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:11:5-74
+17-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:11:22-71
 18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-18-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:12:5-81
-18-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:12:22-78
+18-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:12:5-81
+18-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:12:22-78
 19    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-19-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:13:5-95
-19-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:13:22-92
+19-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:13:5-95
+19-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:13:22-92
 20    <uses-permission android:name="android.permission.WAKE_LOCK" />
-20-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:14:5-68
-20-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:14:22-65
+20-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:14:5-68
+20-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:14:22-65
 21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-21-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:15:5-78
-21-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:15:22-75
+21-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:15:5-78
+21-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:15:22-75
 22    <uses-permission android:name="android.permission.DEVICE_POWER" />
-22-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:16:5-70
-22-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:16:22-68
+22-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:16:5-71
+22-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:16:22-68
 23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-23-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:17:5-81
-23-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:17:22-78
+23-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:17:5-81
+23-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:17:22-78
 24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 24-->[com.google.android.exoplayer:exoplayer-core:2.19.1] C:\Users\shaya\.gradle\caches\8.10.2\transforms\08a97fd293f14515269cdfebfd5ee738\transformed\exoplayer-core-2.19.1\AndroidManifest.xml:24:5-79
 24-->[com.google.android.exoplayer:exoplayer-core:2.19.1] C:\Users\shaya\.gradle\caches\8.10.2\transforms\08a97fd293f14515269cdfebfd5ee738\transformed\exoplayer-core-2.19.1\AndroidManifest.xml:24:22-76
@@ -58,69 +58,69 @@
 30-->[androidx.core:core:1.15.0] C:\Users\shaya\.gradle\caches\8.10.2\transforms\dfd43e81b59da4abcddf46f6706041e0\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
 31
 32    <application
-32-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:19:5-54:19
+32-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:19:5-54:19
 33        android:allowBackup="false"
-33-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:20:9-36
+33-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:20:9-36
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.15.0] C:\Users\shaya\.gradle\caches\8.10.2\transforms\dfd43e81b59da4abcddf46f6706041e0\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 35        android:dataExtractionRules="@xml/data_extraction_rules"
-35-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:21:9-65
+35-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:21:9-65
 36        android:debuggable="true"
 37        android:extractNativeLibs="true"
 38        android:fullBackupContent="@xml/backup_rules"
-38-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:22:9-54
+38-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:22:9-54
 39        android:icon="@mipmap/ic_launcher"
-39-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:23:9-43
+39-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:23:9-43
 40        android:label="@string/app_name"
-40-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:24:9-41
+40-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:24:9-41
 41        android:roundIcon="@mipmap/ic_launcher_round"
-41-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:25:9-54
+41-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:25:9-54
 42        android:supportsRtl="true"
-42-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:26:9-35
+42-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:26:9-35
 43        android:theme="@style/Theme.PlaybackMaster" >
-43-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:27:9-52
+43-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:27:9-52
 44        <activity
-44-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:30:9-39:20
+44-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:30:9-39:20
 45            android:name="com.shayan.playbackmaster.ui.MainActivity"
-45-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:31:13-44
+45-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:31:13-44
 46            android:configChanges="orientation|screenSize"
-46-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:32:13-59
+46-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:32:13-59
 47            android:exported="true"
-47-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:33:13-36
+47-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:33:13-36
 48            android:screenOrientation="unspecified" >
-48-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:34:13-52
+48-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:34:13-52
 49            <intent-filter>
-49-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:35:13-38:29
+49-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:35:13-38:29
 50                <action android:name="android.intent.action.MAIN" />
-50-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:36:17-69
-50-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:36:25-66
+50-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:36:17-69
+50-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:36:25-66
 51
 52                <category android:name="android.intent.category.LAUNCHER" />
-52-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:37:17-77
-52-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:37:27-74
+52-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:37:17-77
+52-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:37:27-74
 53            </intent-filter>
 54        </activity>
 55
 56        <service
-56-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:41:9-43:40
+56-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:41:9-43:40
 57            android:name="com.shayan.playbackmaster.services.PlaybackService"
-57-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:42:13-53
+57-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:42:13-53
 58            android:exported="false" />
-58-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:43:13-37
+58-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:43:13-37
 59
 60        <receiver
-60-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:45:9-52:20
+60-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:45:9-52:20
 61            android:name="com.shayan.playbackmaster.receivers.BootReceiver"
-61-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:46:13-51
+61-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:46:13-51
 62            android:enabled="true"
-62-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:47:13-35
+62-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:47:13-35
 63            android:exported="true" >
-63-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:48:13-36
+63-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:48:13-36
 64            <intent-filter>
-64-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:49:13-51:29
+64-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:49:13-51:29
 65                <action android:name="android.intent.action.BOOT_COMPLETED" />
-65-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:50:17-79
-65-->D:\AndroidStudioProjects\VideoPlayback\app\src\main\AndroidManifest.xml:50:25-76
+65-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:50:17-79
+65-->D:\AndroidStudioProjects\Playback-Master\app\src\main\AndroidManifest.xml:50:25-76
 66            </intent-filter>
 67        </receiver>
 68

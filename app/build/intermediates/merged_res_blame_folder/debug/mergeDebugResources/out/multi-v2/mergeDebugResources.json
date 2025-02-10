@@ -2626,6 +2626,25 @@
                     }
                 },
                 {
+                    "source": "D:\\AndroidStudioProjects\\Playback-Master\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,336",
+                        "endLines": "5,7",
+                        "endColumns": "12,76",
+                        "endOffsets": "328,408"
+                    },
+                    "to": {
+                        "startLines": "2856,7011",
+                        "startColumns": "4,4",
+                        "startOffsets": "197790,487018",
+                        "endLines": "2859,7011",
+                        "endColumns": "12,75",
+                        "endOffsets": "197907,487089"
+                    }
+                },
+                {
                     "source": "C:\\Users\\shaya\\.gradle\\caches\\8.10.2\\transforms\\a067c5272a8fb53bc88d8a740dd6d1ac\\transformed\\media-1.6.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,5,7,8,9,10,11",
@@ -2678,6 +2697,23 @@
                         "endLines": "598,599,600,601,1983,9827,9838,13565,13577,13585",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "29726,29786,29838,29883,130814,673278,673713,811491,811931,812240"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudioProjects\\Playback-Master\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,4,5,6,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,143,183,233,100",
+                        "endColumns": "41,38,48,53,41",
+                        "endOffsets": "94,177,227,282,137"
+                    },
+                    "to": {
+                        "startLines": "727,793,796,1057,1058",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "36479,40998,41172,60819,60873",
+                        "endColumns": "41,38,48,53,41",
+                        "endOffsets": "36516,41032,41216,60868,60910"
                     }
                 },
                 {
@@ -2752,6 +2788,23 @@
                         "startOffsets": "144396",
                         "endColumns": "82",
                         "endOffsets": "144474"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudioProjects\\Playback-Master\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,6,3,9,4,5,7,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,316,129,467,200,265,363,418",
+                        "endColumns": "51,45,69,69,63,49,53,47",
+                        "endOffsets": "64,357,194,532,259,310,412,461"
+                    },
+                    "to": {
+                        "startLines": "2218,2238,2299,2303,2423,2426,2428,2429",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "144479,146715,151493,151929,169038,169450,169571,169625",
+                        "endColumns": "51,45,69,69,63,49,53,47",
+                        "endOffsets": "144526,146756,151558,151994,169097,169495,169620,169668"
                     }
                 },
                 {
@@ -2846,23 +2899,6 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidStudioProjects\\VideoPlayback\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,4,5,6,3",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "57,143,183,233,100",
-                        "endColumns": "41,38,48,53,41",
-                        "endOffsets": "94,177,227,282,137"
-                    },
-                    "to": {
-                        "startLines": "727,793,796,1057,1058",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "36479,40998,41172,60819,60873",
-                        "endColumns": "41,38,48,53,41",
-                        "endOffsets": "36516,41032,41216,60868,60910"
-                    }
-                },
-                {
                     "source": "C:\\Users\\shaya\\.gradle\\caches\\8.10.2\\transforms\\9ec5c44365d57a78df4a3d706810fc82\\transformed\\activity-1.10.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -2913,23 +2949,6 @@
                         "endLines": "2026,2066,2106,11991,11995",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "132750,134846,136913,753693,753842"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidStudioProjects\\VideoPlayback\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,6,3,9,4,5,7,8",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "17,316,129,467,200,265,363,418",
-                        "endColumns": "51,45,69,69,63,49,53,47",
-                        "endOffsets": "64,357,194,532,259,310,412,461"
-                    },
-                    "to": {
-                        "startLines": "2218,2238,2299,2303,2423,2426,2428,2429",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "144479,146715,151493,151929,169038,169450,169571,169625",
-                        "endColumns": "51,45,69,69,63,49,53,47",
-                        "endOffsets": "144526,146756,151558,151994,169097,169495,169620,169668"
                     }
                 },
                 {
@@ -3004,25 +3023,6 @@
                         "endLines": "1889,2046,2062,2063,11819,11998,13003",
                         "endColumns": "62,56,58,48,24,24,24",
                         "endOffsets": "123856,133760,134644,134693,747738,753952,792064"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidStudioProjects\\VideoPlayback\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "102,336",
-                        "endLines": "5,7",
-                        "endColumns": "12,76",
-                        "endOffsets": "328,408"
-                    },
-                    "to": {
-                        "startLines": "2856,7011",
-                        "startColumns": "4,4",
-                        "startOffsets": "197790,487018",
-                        "endLines": "2859,7011",
-                        "endColumns": "12,75",
-                        "endOffsets": "197907,487089"
                     }
                 }
             ]
@@ -10038,7 +10038,7 @@
             "outputFile": "com.shayan.playbackmaster.app-debug-52:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\AndroidStudioProjects\\VideoPlayback\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "D:\\AndroidStudioProjects\\Playback-Master\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

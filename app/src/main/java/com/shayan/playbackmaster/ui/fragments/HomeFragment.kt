@@ -220,6 +220,7 @@ class HomeFragment : Fragment() {
         binding.videoUriTxt.visibility = if (isVideoUploaded) View.VISIBLE else View.GONE
     }
 
+    @Deprecated("Deprecated in Java")
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
